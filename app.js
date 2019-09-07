@@ -1,8 +1,15 @@
+'use strcit'
+
 const express = require('express');
+const morgan = require('morgan');
+const bodyParser = require('body-parser');
+
 const app = express();
 
-app.get('/', function(req, res){
-   res.send("Hello Express!");
-});
+app.use(morgan());
+app.use(bodyParser());
 
-app.listen(3000,  () => console.log("App listening on port 3000!"));
+app.listen(7777, ()=>{
+  console.log(`The server was start at :${new Date().toString()}`);
+  
+})

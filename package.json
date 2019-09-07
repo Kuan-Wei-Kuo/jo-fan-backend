@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-		"build": "set NODE_ENV=production && webpack --mode=production"
+    "build": "set NODE_ENV=production && webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,20 @@
   },
   "homepage": "https://github.com/Kuan-Wei-Kuo/jo-fan-backend#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "generic-pool": "^3.7.1",
+    "graphql": "^14.5.4",
+    "jimp": "^0.7.0",
+    "mongodb": "^3.3.2",
+    "morgan": "^1.9.1",
+    "redis": "^2.8.0",
+    "sequelize": "^5.18.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.3.0",
+    "mocha": "^6.2.0",
     "nodemon": "^1.19.1",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
