@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
-// app.use('/account', require('./route/account.js'));
+app.use('/account', require('./route/account.js'));
 app.use((req, res, next) => {
   return res.sendStatus(404);
 });
