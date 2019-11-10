@@ -4,7 +4,7 @@ const express = require('express')
 const middleware = require('./mod/middleware/index.js')
 const router = require('./router/index.js')
 const app = express()
-// middleware(app)
+middleware(app)
 router(app)
 
 app.use((req, res, next) => {
