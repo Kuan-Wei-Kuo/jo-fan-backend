@@ -32,11 +32,13 @@
     "mongodb": "^3.3.2",
     "morgan": "^1.9.1",
     "redis": "^2.8.0",
+    "request": "^2.88.0",
     "sequelize": "^5.18.1",
     "squel": "^5.13.0",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
+    "supertest": "^4.0.2",
     "chai": "^4.2.0",
     "eslint": "^6.3.0",
     "eslint-config-standard": "^13.0.1",
