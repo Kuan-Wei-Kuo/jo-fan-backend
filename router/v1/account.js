@@ -5,7 +5,7 @@ const Router = express.Router()
 const accountService = require('../../service/account.js')
 Router.post('/register', async (req, res) => {
   const { username, password } = req.body
-  result = await accountService.register(username, password)
+  const result = await accountService.register(username, password)
   res.set({
     'Cache-Control': 'no-store',
     Pragma: 'no-cache'
