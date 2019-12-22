@@ -1,0 +1,28 @@
+{
+  "APIName":"token",
+  "method":"post",
+  "description": "登入",
+  "route":"/oauth/token",
+  "isAuth": false,
+  "strictMode":false,
+  "disableEnv":{
+    "test":false,
+    "develop":false,
+    "product":false
+  },
+  "inputParam":[
+    {
+      "path":"username",
+      "dataType":"string",
+      "valueRange":"",
+      "regexp":""
+    },
+    {
+      "path":"password",
+      "dataType":"string",
+      "valueRange":"",
+      "regexp":""
+    }
+  ],
+  "outputParam":[]
+}

@@ -9,5 +9,5 @@ module.exports = (app) => {
   app.use(bodyParser.urlencoded({
     extended: false
   }))
-  // app.use(filter());
+  app.use(filter.checkRequest.bind(filter))
 }

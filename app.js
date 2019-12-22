@@ -10,6 +10,10 @@ router(app)
 app.use((req, res, next) => {
   return res.sendStatus(404)
 })
+
+app.use((err, req, res, next) => {
+  return res.sendStatus(err)
+})
 app.listen(3000, () => {
-  console.log(`The server starts at :${new Date().toString()}`)
+  console.log(`The server start up at :${new Date().toISOString()}`)
 })
