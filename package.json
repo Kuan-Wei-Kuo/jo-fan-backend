@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/Kuan-Wei-Kuo/jo-fan-backend#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "generic-pool": "^3.7.1",
     "graphql": "^14.5.4",
     "jimp": "^0.7.0",
