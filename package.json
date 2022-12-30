@@ -33,7 +33,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.3.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.1",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
